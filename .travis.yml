@@ -7,3 +7,5 @@ braches:
   only:
     - master
 install: npm install
+after_success:
+  $DOCKER_HUB_TRIGGER
